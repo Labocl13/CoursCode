@@ -85,14 +85,15 @@ a:hover {
   top:10px;
 }
 
- .feature {
-  border: 50px solid grey;
+.feature,.defi{
+  border: 1px solid #F2F2F2;
+  background: #FAFAFA;
   margin: 15px;
   padding: 15px 0;
   text-align: center;
   width: 400px;
-  background : pink;
 }
+
  #apropos{
   display: flex;
   flex-wrap: wrap;
@@ -103,5 +104,16 @@ a:hover {
 }
 .red{
   color: red;
+ } 
 
+#welcome{
+  background-color: #41A3C0;
+  text-align: center;
+  padding: 50px;
+  color: white;
+}
+
+#welcome h4{
+ font-size: 50px;
+}
 
